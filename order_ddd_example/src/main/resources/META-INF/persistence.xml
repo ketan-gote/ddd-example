@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd" version="1.0">
+
+   <persistence-unit name="PersistenceUnit">
+		<exclude-unlisted-classes />
+		<properties>
+			<property name="javax.jdo.option.ConnectionURL" value="jdbc:postgresql:postgres" />
+			<property name="javax.jdo.option.Mapping" value="postgres"></property>
+			<property name="datanucleus.schema.autoCreateAll" value="true" />
+			<property name="javax.jdo.option.ConnectionDriverName" value="org.postgresql.Driver" />
+			<property name="javax.jdo.option.ConnectionUserName" value="postgres" />
+			<property name="javax.jdo.option.ConnectionPassword" value="postgres" />
+			<property name="javax.jdo.option.DetachAllOnCommit" value="true"/>
+		</properties>
+	</persistence-unit>
+
+</persistence>

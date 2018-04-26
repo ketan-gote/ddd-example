@@ -44,7 +44,7 @@ Implement a façade or adapter layer between different subsystems that don't sha
 
 
 ## License
-Copyright © MetaMagic Global Inc, 2017-18. All rights reserved.
+
 
 Licensed under the Apache 2.0 License.
 
